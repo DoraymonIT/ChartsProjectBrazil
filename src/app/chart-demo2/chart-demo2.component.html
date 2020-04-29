@@ -1,1 +1,14 @@
-<p>chart-demo2 works!</p>
+<div class="container">
+  <h3 style="text-align: center;">Title : Comparing between two Teams </h3>
+  <div class="row">
+    <div class="col-md-6"><canvas ngChartjs [chartType]="chartType" [datasets]="chartDatasets" [labels]="chartLabels" [colors]="chartColors"
+        [options]="chartOptions">
+      </canvas></div>
+    <div class="col-md-6">
+      <canvas ngChartjs [chartType]="chartType" [datasets]="chartDatasets1" [labels]="chartLabels1" [colors]="chartColors1"
+        [options]="chartOptions1">
+      </canvas>
+    </div>
+
+  </div>
+</div>

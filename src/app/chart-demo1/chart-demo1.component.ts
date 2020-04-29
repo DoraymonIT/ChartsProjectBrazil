@@ -27,6 +27,11 @@ export class ChartDemo1Component implements OnInit {
 
 
   };
+  public chartColors: Array<any> = [
+    {
+      borderWidth: 2,
+    }
+  ];
   public chartClicked(e: any): void {  }
   public chartHovered(e: any): void { }
 }
